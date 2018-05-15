@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_option_labels">
+        <item>@string/pref_label_4</item>
+        <item>@string/pref_label_8</item>
+        <item>@string/pref_label_12</item>
+    </array>
+
+    <array name="pref_option_values">
+        <item>@string/pref_value_4</item>
+        <item>@string/pref_value_8</item>
+        <item>@string/pref_value_12</item>
+    </array>
+
+</resources>

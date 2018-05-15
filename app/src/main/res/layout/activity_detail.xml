@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/note3"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/note2" />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/note4"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/note3" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_marginLeft="32dp">
+
+        <TableRow>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="3dip"
+                    android:text="@string/res" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/result"
+                    android:gravity="end"
+                    android:padding="3dip" />
+        </TableRow>
+        <TableRow>
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="3dip"
+                    android:text="@string/min_time_res" />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/min_time"
+                    android:gravity="end"
+                    android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
